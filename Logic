@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-09T17:09:28.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="popu0EOVir5g4GudjoGQ" version="13.6.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-09-09T17:18:32.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="nd0q1J92_BlChS1RsFj3" version="13.6.9" type="github" pages="2">
   <diagram id="3it43KDueVdECszo3SNV" name="Setup">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,8 +102,52 @@
       <root>
         <mxCell id="dikPdDYQoaoEXBTDTang-0" />
         <mxCell id="dikPdDYQoaoEXBTDTang-1" parent="dikPdDYQoaoEXBTDTang-0" />
+        <mxCell id="dikPdDYQoaoEXBTDTang-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dikPdDYQoaoEXBTDTang-1" source="dikPdDYQoaoEXBTDTang-2" target="dikPdDYQoaoEXBTDTang-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dikPdDYQoaoEXBTDTang-2" value="loop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dikPdDYQoaoEXBTDTang-1">
-          <mxGeometry x="80" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="400" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dikPdDYQoaoEXBTDTang-1" source="dikPdDYQoaoEXBTDTang-3" target="dikPdDYQoaoEXBTDTang-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dikPdDYQoaoEXBTDTang-1" source="dikPdDYQoaoEXBTDTang-3" target="dikPdDYQoaoEXBTDTang-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-3" value="object passed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dikPdDYQoaoEXBTDTang-1">
+          <mxGeometry x="420" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-9" value="retrieve new passage times" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dikPdDYQoaoEXBTDTang-1">
+          <mxGeometry x="600" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dikPdDYQoaoEXBTDTang-1" source="dikPdDYQoaoEXBTDTang-11" target="dikPdDYQoaoEXBTDTang-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dikPdDYQoaoEXBTDTang-1" source="dikPdDYQoaoEXBTDTang-11" target="dikPdDYQoaoEXBTDTang-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-11" value="object &lt;br&gt;visible?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dikPdDYQoaoEXBTDTang-1">
+          <mxGeometry x="280" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dikPdDYQoaoEXBTDTang-1" source="dikPdDYQoaoEXBTDTang-14" target="dikPdDYQoaoEXBTDTang-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-14" value="Adjust Azimuth to object position" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dikPdDYQoaoEXBTDTang-1">
+          <mxGeometry x="400" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-15" value="Adjust Elevation&amp;nbsp;&amp;nbsp;to object position" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dikPdDYQoaoEXBTDTang-1">
+          <mxGeometry x="400" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dikPdDYQoaoEXBTDTang-1" source="dikPdDYQoaoEXBTDTang-16" target="dikPdDYQoaoEXBTDTang-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-16" value="Adjust Azimuth to zero&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dikPdDYQoaoEXBTDTang-1">
+          <mxGeometry x="120" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dikPdDYQoaoEXBTDTang-17" value="Adjust Elevation to zero" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dikPdDYQoaoEXBTDTang-1">
+          <mxGeometry x="120" y="440" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
