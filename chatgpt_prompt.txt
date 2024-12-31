@@ -1,0 +1,39 @@
+Ok, ik heb een satpointer project. 
+Laten we er eens aan beginnen. 
+
+Eea. bouw ik samen tot een apparaat, de satpointer. 
+Doel is om fysiek aan te geven waar een sattelliet of ander hemellichaam zich bevindt.
+Met die beperking dat het aan te wijzen object zich wel boven de horizon moet bevinden om het te kunnen zien.
+Het kan ook dat het object zich te ver van de aarde verwijderd zodat we het niet meer kunnen zien (met het blote oog).
+Het apparaat bestaat uit een ring die kan draaien, aangedreven door een continous servo.
+Op die ring is een aanwijzer gemonteerd die kan bewegen als een kanonsloop op een tank, zeg maar. De aanwijzer maakt dus een hoek tussen 0 graden (horizon) en 90 graden (recht naar boven).
+
+Ik heb een arduino
+Ik heb1 SG90 continous rotation servo's, voor richting
+Er komt mogelijk nog een gewone servo bij voor hoogte. 
+Ik heb een 1.77inch Hd 65K Full Color Lcd Module St7735 als display.
+Ik heb een GY-271 kompas module waarmee ik het magnetische noorden zou moeten vinden.
+Ik heb een GY-521 MPU-6050 gyro module waarmee ik de hoek van de aanwijzer zou kunnen meten. 
+
+De programmalogica is als volgt:
+
+Apparaat start op
+Welkomboodschap op de display
+Toon welkom plaatje op het display
+  
+Herhaal dit calibratieproces een paar keer om de sensor wat rust te geven
+  Display toont tijdens het calibratieproces de voortgang
+  Bepaal de hoek met het magnetische noorden.  
+  Draai de ring naar de home positie, het noorden.   
+  Draai de aanwijzer naar de home positie, de horizon.   
+
+Bepaal welk object we gaan volgen.
+Toon wat object details en plaatje van het object op het scherm
+
+Herhaal iedere minuut totdat het object niet meer te zien is 
+  Display toont gegevens van het gevolgde object en richting/hoogte.
+  Haal richting en hoogte op waar het te volgen object zich bevindt.
+  Draai nu de ring totdat deze de juiste richting op wijst.
+  Draai de aanwijzer totdat deze de juiste richting op wijst.
+ 
+
